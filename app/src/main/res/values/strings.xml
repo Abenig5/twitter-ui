@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">X clone</string>
+    <string name="x_login_guide_text">To get started, first enter your phone, email or @username</string>
+    <string name="phone_email_or_username_hint_text">Phone, email or username</string>
+    <string name="x_logo_icon_description_text">x_logo_icon</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="x_forgot_password_text">forgot password?</string>
+    <string name="x_next_text">Next</string>
+    <string name="close_activity_x_X">close_activity_x</string>
+    <string name="password_hint">Password</string>
+    <string name="join_x_today">Join X Today</string>
+    <string name="join_text_additional">Create an Official X account to get the full experience.</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Log In</string>
+
+</resources>

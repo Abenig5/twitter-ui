@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item>Section N1</item>
+        <item>Section N2</item>
+        <item>Section N3</item>
+        <item>Section N4</item>
+        <item>Section N5</item>
+        <item>Section N6</item>
+        <item>Section N7</item>
+        <item>Section N8</item>
+    </string-array>
+</resources>

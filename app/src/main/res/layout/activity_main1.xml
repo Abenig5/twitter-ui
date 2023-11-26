@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1"
+    android:orientation="vertical"
+    android:id="@+id/MainContainer"
+    android:gravity="center">
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/tv1"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:hint="Enter your section"
+        android:id="@+id/et1"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:id="@+id/bt1"/>
+
+    <CheckBox
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="N1"
+        android:id="@+id/cb1"/>
+
+
+
+    <ToggleButton
+        android:id="@+id/tb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Masters"
+        android:textOn="Degree" />
+
+    <RadioButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Regular"
+        android:id="@+id/rb1" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:max="100"
+        android:id="@+id/pb1"/>
+
+    <SeekBar
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:id="@+id/sb1"/>
+    <AutoCompleteTextView
+        android:id="@+id/ac"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:hint="Enter Section"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:completionThreshold="1" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Sections"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:completionThreshold="1" />
+    <CheckedTextView
+        android:id="@+id/ctv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:padding="10dp"
+        android:text="Check Me"
+        android:textSize="16sp"/>
+    <TextSwitcher
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:hint="Enter text"
+        android:id="@+id/ts"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"
+        android:id="@+id/iv"/>
+
+</LinearLayout>
